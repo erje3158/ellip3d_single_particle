@@ -16889,7 +16889,7 @@ void assembly::unixialCompression(int   total_steps,
 	    sprintf(stepsstr, "%03d", stepsnum+first_snapshot); 
 	    strcpy(stepsfp,particlefile); strcat(stepsfp, "_"); strcat(stepsfp, stepsstr);
 	    printParticle(stepsfp); 
-            sprintf(stepsstr, "%03d", stepsnum+first_snapshot); 
+      sprintf(stepsstr, "%03d", stepsnum+first_snapshot); 
 	    strcpy(stepsfp,"boundary"); strcat(stepsfp, "_"); strcat(stepsfp, stepsstr);
 	    printBoundary(stepsfp);   
 	    time(&timeStamp);
